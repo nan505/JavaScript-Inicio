@@ -118,7 +118,37 @@ console.log(altura > 1.5 && peso < 150 && tipo != "criança")
 // Estrutura
 //     Estrutura de controle/decisão
 
+let carro = "fiat"
+
+if(carro == "bmw"){
+    console.log("Você está bem mais ou menos.") // Verdadeiro
+}else{
+    console.log("A vida está progredindo.") // Falso
+}
+
+let idadeAluno = 20
+
+if(idadeAluno >= 18){
+    console.log("Maior de idade.")
+}else{
+    console.log("Menor de idade.")
+}
+
 //     Laços de repetição
+
+let controle = 1
+
+while(controle <= 10){
+    console.log(controle)
+    controle = controle + 1
+}
+
+controle = 1
+
+while(controle <= 10){
+    console.log(7*controle)
+    controle= controle + 1
+}
 
 // Arrays --> vetor
 
