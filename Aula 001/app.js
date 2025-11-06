@@ -3,7 +3,6 @@
         Não declarar variáveis com var;
         Nomes descritivos e significativos;
         Funções não muito longas;
-        Utilizar const sempre que possível ao invés de let;
         Utilizar === para comparações;
         Variáveis sempre com um valor declarado;
         Sempre utilizar ponto e vírgula;
