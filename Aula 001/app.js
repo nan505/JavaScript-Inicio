@@ -152,4 +152,36 @@ while(controle <= 10){
 
 // Arrays --> vetor
 
+let zoologico=['Leão', 'Elefante', 'Zebra', 'Ariranha', 'Lobo Guará']
+
+console.log(zoologico[2])
+console.log(zoologico.length)
+
+let frutas = ['🍓', '🍊', '🥭', '🍐', '🍌', '🍇', '🍉']
+
+console.log(frutas)
+frutas.push('🍎')
+console.log(frutas)
+
+let alunos=[]
+alunos.push("João")
+alunos.push("Renata")
+alunos.push("Roberto")
+console.log(alunos)
+
 // Funções personalizadas
+
+function mensagem(){
+    console.log("Olá!")
+    console.log("Seja bem-vindo!")
+    console.log(" :) ")
+}
+
+mensagem()
+mensagem()
+
+function conta(horas, sal_hora){
+    console.log(horas * sal_hora)
+}
+
+conta(140, 75)
