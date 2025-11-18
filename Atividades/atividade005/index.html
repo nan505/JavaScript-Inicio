@@ -22,18 +22,20 @@
 
         <form>
             <input type="search" class="input_search" placeholder="Número"
-            required>
+            id="pokemon_procurado"
+            required onkeyup="fnPesquisarNumero()">
         </form>
 
         <div class="buttons">
-            <button class="button btn-prev">&lt; Anterior</button>
-            <button class="button btn-next">Próximo &gt;</button>
+            <button class="button btn-prev" onclick="fnPrev()">&lt; Anterior</button>
+            <button class="button btn-next" onclick="fnNext()">Próximo &gt;</button>
         </div>
         
 
         <img src="img/pokedex.png" alt="pokedex" class="pokedex">
     </main>
 
+    <audio src="./media/pokemon_ost.mp3" autoplay="true" loop="true"></audio>
     <script src="./js/app.js"></script>
 </body>
 </html>
